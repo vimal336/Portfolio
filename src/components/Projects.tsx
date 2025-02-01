@@ -1,39 +1,53 @@
 import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
+import todoimage from "../assets/images/todo.png";
+import Booking from "../assets/images/booking.png";
+import Tour from "../assets/images/tour.png";
+import Netflix from "../assets/images/netflix.png";
+
 
 const projects = [
   {
-    title: 'E-commerce Platform',
-    description: 'A modern e-commerce platform built with React and Node.js',
-    image: 'https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=1000',
-    tags: ['React', 'Node.js', 'MongoDB'],
-    githubLink: 'https://github.com',
-    liveLink: 'https://example.com'
-  },
-  {
-    title: 'Landing Website',
-    description: 'A Landing Website built with Html, Css and Javascript',
-    image: 'https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=1000',
-    tags: ['Javascript', 'CSS', 'Html'],
-    githubLink: 'https://vimal336.github.io/js-projects/landing-page/',
-    liveLink: 'https://vimal336.github.io/js-projects/landing-page/'
-  },
-  {
-    title: 'Task Management App',
-    description: 'A collaborative task management application with real-time updates',
-    image: 'https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&q=80&w=1000',
-    tags: ['React', 'Firebase', 'Tailwind'],
-    githubLink: 'https://github.com',
-    liveLink: 'https://example.com'
+    title: 'Netflix Clone',
+    description: 'A Netflix Clone using React, redux and firebase',
+    image: Netflix,
+    tags: ['React', 'Redux', 'Firebase'],
+    githubLink: 'https://github.com/vimal336/React-js-projects/tree/main/my-netflix-clone',
+    liveLink: 'https://guileless-peony-2775b5.netlify.app'
   },
   {
     title: 'Mern ToDO APP',
     description: 'A Mern stack todo application',
-    image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&fit=crop&q=80&w=1000',
+    image: todoimage,
     tags: ['React', 'Express.js', 'Node.js', 'APIs', 'Mango DB'],
     githubLink: 'https://github.com/vimal336/mern-todo.com',
     liveLink: 'https://mern-todo-gold.vercel.app'
-  }
+  },
+  {
+    title: 'React Movie Booking App',
+    description: 'A React Movie Booking App',
+    image: 'https://vimalportf.netlify.app/images/reactjs5.PNG',
+    tags: ['React', 'Vite.js'],
+    githubLink: 'https://my-react-movie-booking.netlify.app/',
+    liveLink: 'https://github.com/vimal336/React-js-projects/tree/main/react-movie-booking'
+  },
+  {
+    title: 'Shopping cart App',
+    description: 'Shopping cart project using html, css and js',
+    image: 'https://vimalportf.netlify.app/images/js3.png',
+    tags: ['javscript', 'Html', 'CSS'],
+    githubLink: 'https://github.com/vimal336/js-projects/tree/main/Shopping-Cart',
+    liveLink: 'https://vimal336.github.io/js-projects/Shopping-Cart'
+  },
+  {
+    title: 'Tour Website',
+    description: 'Tour website project using html, css and js',
+    image: Tour,
+    tags: ['javscript', 'Html', 'CSS', 'Media Query'],
+    githubLink: 'https://github.com/vimal336/js-projects/tree/main/TourWebsite',
+    liveLink: 'https://vimal336.github.io/js-projects/TourWebsite'
+  },
+ 
 ];
 
 const Projects = () => {
