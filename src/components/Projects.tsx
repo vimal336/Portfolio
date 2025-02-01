@@ -27,12 +27,12 @@ const projects = [
     liveLink: 'https://example.com'
   },
   {
-    title: 'Weather Dashboard',
-    description: 'A weather dashboard with interactive maps and forecasts',
+    title: 'Mern ToDO APP',
+    description: 'A Mern stack todo application',
     image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&fit=crop&q=80&w=1000',
-    tags: ['React', 'TypeScript', 'APIs'],
-    githubLink: 'https://github.com',
-    liveLink: 'https://example.com'
+    tags: ['React', 'Express.js', 'Node.js', 'APIs', 'Mango DB'],
+    githubLink: 'https://github.com/vimal336/mern-todo.com',
+    liveLink: 'https://mern-todo-gold.vercel.app'
   }
 ];
 
