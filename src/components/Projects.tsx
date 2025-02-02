@@ -1,7 +1,7 @@
 import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
 import todoimage from "../assets/images/todo.png";
-import MovieBooking from "../assets/images/booking.png";
+import Booking from "../assets/images/booking.png";
 import Tour from "../assets/images/tour.png";
 import Netflix from "../assets/images/netflix.png";
 
