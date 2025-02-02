@@ -42,7 +42,7 @@ const projects = [
   {
     title: 'Tour Website',
     description: 'Tour website project using html, css and js',
-    image: MovieBooking,
+    image: Tour,
     tags: ['javscript', 'Html', 'CSS', 'Media Query'],
     githubLink: 'https://github.com/vimal336/js-projects/tree/main/TourWebsite',
     liveLink: 'https://vimal336.github.io/js-projects/TourWebsite'
