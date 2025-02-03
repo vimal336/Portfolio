@@ -172,7 +172,7 @@ const EducationSection: React.FC = () => {
                 <div className="edubox bg-white p-4 rounded-lg shadow-md">
                   <h4 className="text-lg font-semibold text-black">{`${exp.role} - ${exp.duration}`}</h4>
                   <h3 className="text-md  text-blue-800 mb-2">{exp.company}</h3>
-                  <ul className="list-disc list-inside text-gray-600 dark:text-black">
+                  <ul className="list-disc list-inside text-gray-800 dark:text-black">
                     {exp.tasks.map((task, taskIndex) => (
                       <li key={taskIndex} className="mb-1">{task}</li>
                     ))}
