@@ -18,7 +18,7 @@ const Hero = () => {
         <div className="text-center">
           <div className="space-y-6 reveal-slide-up">
             <h2 className="text-xl md:text-2xl font-medium text-blue-400">
-              Hello, I'm a
+              Hello, I'm Vimal S
             </h2>
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
               Frontend Developer
