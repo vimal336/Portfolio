@@ -160,7 +160,7 @@ const educationDetails: EducationDetails[] = [
 
 const EducationSection: React.FC = () => {
   return (
-    <div className="bf" id="education">
+    <div className="bf" id="experience">
       <div className="education px-4 py-8 sm:px-8 md:px-16 lg:px-24">
         <main className="edurow-2">
           <section className="educol mb-8">
