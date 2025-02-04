@@ -4,6 +4,7 @@ import todoimage from "../assets/images/todo.png";
 import Booking from "../assets/images/booking.png";
 import Tour from "../assets/images/tour.png";
 import Netflix from "../assets/images/netflix.png";
+import moviefav from "./../assets/images/moviefav.png"
 
 
 const projects = [
@@ -14,6 +15,14 @@ const projects = [
     tags: ['React', 'Redux', 'Firebase'],
     githubLink: 'https://github.com/vimal336/React-js-projects/tree/main/my-netflix-clone',
     liveLink: 'https://guileless-peony-2775b5.netlify.app'
+  },
+  {
+    title: 'Movies hub',
+    description: 'A movies search app you can search and get information about the movie also you can add the fav movies',
+    image: moviefav,
+    tags: ['React', 'Bootstrap', 'omdbapi Api','Axios'],
+    githubLink: 'https://github.com/vimal336/React-js-projects/tree/main/movie-search-app',
+    liveLink: 'https://mymoviesearchfav.netlify.app'
   },
   {
     title: 'Mern ToDO APP',
