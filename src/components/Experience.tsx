@@ -199,7 +199,7 @@ const EducationSection: React.FC = () => {
             </section>
             <section className="educol">
               <header className="title mb-4">
-                <h2 className="text-xl font-semibold text-gray-700 dark:text-white">SCHOOL</h2>
+                <h2 className="text-xl font-semibold text-gray-700 dark:text-white">SCHOOLs</h2>
               </header>
               {educationDetails.slice(2).map((edu, index) => (
                 <div className="educontents mb-4" key={index}>
